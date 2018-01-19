@@ -15,7 +15,7 @@ class PinsController < ApplicationController
 		@pin = Pin.new(pin.params)
 
 		if @pin.save
-			redirect_to @pin, notice "Successfully created new Pin"
+			redirect_to @pin, notice: "Successfully created new Pin"
 		else
 			render 'new'
 		end
