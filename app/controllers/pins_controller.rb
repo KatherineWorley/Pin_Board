@@ -1,7 +1,8 @@
 class PinsController < ApplicationController
 	before_action :find_pin, only: [:show, :edit, :update, :destroy]
+
 	def index
-		@pins = Pin.all.order("created_at DESC")
+		@pin = Pin.all.order("created_at DESC")
 	end
 
 	def show
@@ -12,7 +13,7 @@ class PinsController < ApplicationController
 	end
 
 	def create
-		@pin = pins.build(pin_params)
+		@pin = Pin.new(pin_params)
 
 		if @pin.save
 			redirect_to @pin, notice: "Pin was successfully created"
