@@ -143,6 +143,8 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails-ujs (0.1.0)
+      railties (>= 3.1)
     railties (5.1.4)
       actionpack (= 5.1.4)
       activesupport (= 5.1.4)
@@ -229,6 +231,7 @@ DEPENDENCIES
   paperclip (~> 4.3, >= 4.3.6)
   puma (~> 3.7)
   rails (~> 5.1.4)
+  rails-ujs
   sass-rails (~> 5.0)
   selenium-webdriver
   simple_form (~> 3.5)
