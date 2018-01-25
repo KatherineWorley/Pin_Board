@@ -26,6 +26,9 @@ gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'acts_as_votable', '~> 0.11.1'
 gem 'rails-ujs'
+gem 'sprockets', '~> 3.7.1'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'turbolinks', '~> 5.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
